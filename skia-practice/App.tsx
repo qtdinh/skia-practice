@@ -1,10 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
+import HelloWorld from './practice/hello-world';
+import { ItsFine } from './practice/its-fine/its-fine';
+import { PathDemo } from './practice/path-object';
+import { SVGNotation } from './practice/trim';
+import { FillType } from './practice/filltype';
+import { PatchDemo } from './practice/patchdemo';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <PatchDemo />
   );
 }
 

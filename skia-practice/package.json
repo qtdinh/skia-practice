@@ -1,12 +1,13 @@
 {
   "dependencies": {
+    "@shopify/react-native-skia": "0.1.196",
     "expo": "^49.0.3",
+    "its-fine": "^1.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.3",
-    "react-native-web": "~0.19.6",
-    "@shopify/react-native-skia": "0.1.196",
-    "react-native-reanimated": "~3.3.0"
+    "react-native-reanimated": "~3.3.0",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
