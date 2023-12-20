@@ -5,10 +5,21 @@ import { PathDemo } from './practice/path-object';
 import { SVGNotation } from './practice/trim';
 import { FillType } from './practice/filltype';
 import { PatchDemo } from './practice/patchdemo';
+import { GlyphDemo } from './practice/glyphs';
+import { TextPathDemo } from './practice/textpath';
+import { TextBlobDemo } from './practice/textblob';
+import { SimpleShader } from './practice/shader';
+import { UniformShader } from './practice/uniformshader';
+import { NestedShader } from './practice/nestedshaders';
+import { ImageShaderDemo } from './practice/image-shader';
+import { LinearGradientDemo } from './practice/lineargradient';
+import { RadialGradientDemo } from './practice/radialgradient';
+import { TwoPointConicalGradientDemo } from './practice/twopointconicalgradient';
+import { SweepGradientDemo } from './practice/assets/sweepgradient';
 
 export default function App() {
   return (
-    <PatchDemo />
+    <SweepGradientDemo />
   );
 }
 
